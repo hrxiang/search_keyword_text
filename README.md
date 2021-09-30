@@ -1,3 +1,6 @@
+![img](https://github.com/hrxiang/search_keyword_text/blob/master/gif/QQ20210930-155448-HD.gif)
+
+
 ```
   SearchKeyText(
     text: 'Lucy',
@@ -10,4 +13,3 @@
     ),
   )
 ```
-![img](https://github.com/hrxiang/OpenIMFlutterDemo/blob/main/gif/QQ20210728-105444-HD.gif)

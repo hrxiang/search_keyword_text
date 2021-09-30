@@ -2,7 +2,7 @@
 
 
 ```
-  SearchKeyText(
+  SearchKeywordText(
     text: 'Lucy',
     keyText: 'l',
     style: TextStyle(

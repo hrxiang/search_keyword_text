@@ -10,3 +10,4 @@
     ),
   )
 ```
+![img](https://github.com/hrxiang/OpenIMFlutterDemo/blob/main/gif/QQ20210728-105444-HD.gif)

@@ -1,7 +1,7 @@
 name: search_keyword_text
 description: A new Flutter project.
-version: 0.0.1
-homepage:
+version: 0.0.2
+homepage: https://github.com/hrxiang/search_keyword_text.git
 
 environment:
   sdk: ">=2.12.0 <3.0.0"

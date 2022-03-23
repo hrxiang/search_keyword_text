@@ -6,6 +6,12 @@ class SearchKeywordText extends StatelessWidget {
   final String keyText;
   final TextStyle? style;
   final TextStyle? keyStyle;
+  final TextAlign textAlign;
+  final TextDirection? textDirection;
+  final bool softWrap;
+  final TextOverflow overflow;
+  final double textScaleFactor;
+  final int? maxLines;
 
   const SearchKeywordText({
     Key? key,
@@ -13,6 +19,12 @@ class SearchKeywordText extends StatelessWidget {
     this.keyText = "",
     this.style,
     this.keyStyle,
+    this.textAlign = TextAlign.start,
+    this.textDirection,
+    this.softWrap = true,
+    this.overflow = TextOverflow.clip,
+    this.textScaleFactor = 1.0,
+    this.maxLines,
   }) : super(key: key);
 
   @override
@@ -34,6 +46,12 @@ class SearchKeywordText extends StatelessWidget {
       children.add(TextSpan(text: text, style: style));
     }
     return RichText(
+      textAlign: textAlign,
+      textDirection: textDirection,
+      softWrap: softWrap,
+      overflow: overflow,
+      textScaleFactor: textScaleFactor,
+      maxLines: maxLines,
       text: TextSpan(children: children),
     );
   }
